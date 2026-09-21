@@ -3,10 +3,11 @@
   <circle cx="90" cy="90" r="68" fill="#98563F" stroke="#402B23" stroke-width="3"/>
   <circle cx="90" cy="90" r="60" stroke="#FBF8F2" stroke-width="2"/>
   <circle cx="90" cy="90" r="51" stroke="#F1C49D" stroke-width="1.5"/>
+  <circle cx="90" cy="90" r="42" stroke="#FBF8F2" stroke-opacity=".24" stroke-width="1"/>
   <circle cx="90" cy="39" r="4" fill="#F1C49D"/>
   <circle cx="90" cy="141" r="4" fill="#F1C49D"/>
   <circle cx="39" cy="90" r="4" fill="#F1C49D"/>
   <circle cx="141" cy="90" r="4" fill="#F1C49D"/>
-  <path d="M84 43 90 47 96 43M84 137 90 133 96 137" fill="none" stroke="#F1C49D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="90" y="104" fill="#FBF8F2" font-family="Georgia, serif" font-size="39" font-weight="600" text-anchor="middle" letter-spacing="-4">M&amp;T</text>
+  <path d="M84 43 90 47 96 43M84 137 90 133 96 137M43 84 47 90 43 96M137 84 133 90 137 96" fill="none" stroke="#F1C49D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="90" y="105" fill="#FBF8F2" font-family="Georgia, serif" font-size="42" font-weight="600" text-anchor="middle" letter-spacing="-4">M&amp;T</text>
 </svg>
