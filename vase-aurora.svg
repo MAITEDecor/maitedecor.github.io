@@ -1,0 +1,32 @@
+<svg width="900" height="990" viewBox="0 0 900 990" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="60" y1="30" x2="830" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E4D3"/>
+      <stop offset="1" stop-color="#D7B99E"/>
+    </linearGradient>
+    <linearGradient id="ceramic" x1="238" y1="198" x2="707" y2="841" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C47E5A"/>
+      <stop offset=".46" stop-color="#A95E45"/>
+      <stop offset="1" stop-color="#754133"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="294" y1="257" x2="535" y2="784" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4C7A2" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#D9916C" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="121" y="111" width="690" height="796" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#5D382B" flood-opacity=".2"/>
+    </filter>
+  </defs>
+  <rect width="900" height="990" rx="36" fill="url(#bg)"/>
+  <circle cx="700" cy="173" r="122" fill="#FBF7F0" fill-opacity=".42"/>
+  <path d="M83 829C238 769 413 761 832 850" stroke="#B98968" stroke-opacity=".28" stroke-width="2"/>
+  <g filter="url(#shadow)">
+    <path d="M377 172C378 244 368 278 330 329C284 390 249 458 248 560C248 739 345 843 474 850C603 857 690 747 691 564C692 460 656 385 602 327C561 283 549 243 551 171H377Z" fill="url(#ceramic)"/>
+    <path d="M378 171H550V205C506 225 421 225 378 205V171Z" fill="#7B4334"/>
+    <ellipse cx="464" cy="171" rx="87" ry="22" fill="#6E3A30"/>
+    <ellipse cx="464" cy="168" rx="70" ry="13" fill="#F0BE99" fill-opacity=".38"/>
+    <path d="M384 237C361 342 299 387 289 523C278 676 343 781 437 813" stroke="url(#highlight)" stroke-width="46" stroke-linecap="round"/>
+    <path d="M322 376C303 445 302 537 316 599" stroke="#F4C7A2" stroke-opacity=".18" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <path d="M228 850C374 818 567 819 713 850" stroke="#704435" stroke-opacity=".24" stroke-width="3"/>
+</svg>
