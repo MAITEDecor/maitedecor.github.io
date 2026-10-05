@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://maitedecor.github.io/sitemap.xml
