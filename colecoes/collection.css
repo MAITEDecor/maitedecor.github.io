@@ -2,13 +2,13 @@
 
 :root {
   color-scheme: light;
-  --paper: #faf8f5;
+  --paper: #fdfaf0;
   --paper-deep: #f1ece5;
   --ink: #2b2b2b;
   --muted: #756e66;
   --line: #e5ded5;
-  --terracotta: #b96f53;
-  --sage: #747b66;
+  --terracotta: #866523;
+  --sage: #244c3e;
   --serif: 'Playfair Display', Georgia, serif;
   --sans: 'DM Sans', sans-serif;
 }
@@ -128,3 +128,15 @@ h1 { max-width: 780px; margin: 18px 0 22px; font: 400 clamp(48px,7.2vw,96px)/.99
   .nav-scroll-hint { position: absolute; right: 0; top: 50%; z-index: 1; display: grid; width: 25px; height: 38px; place-items: center; transform: translateY(-50%); color: var(--terracotta); background: linear-gradient(90deg,rgba(250,248,245,0),var(--paper) 48%); font-size: 21px; pointer-events: none; }
   .main-nav { padding-right: 27px; }
 }
+
+/* Shared MA&TÊ identity across all editorial guides. */
+.site-header { background:#fdfaf0; border-bottom-color:#d3bf8b; }
+.brand { display:flex;align-items:center;gap:12px;flex:none; }
+.brand img { width:58px;height:58px;object-fit:contain; }
+.brand-signature { color:#866523;font:400 29px/1 Georgia,serif; }
+.brand-signature small { display:block;margin-top:7px;font:500 8px/1.8 var(--sans);letter-spacing:.3em;color:#244c3e; }
+.header-inner { min-height:98px; }
+.footer-logo { width:126px;height:126px;object-fit:contain; }
+.footer-inner { padding-block:18px; }
+.button { background:#244c3e;border-color:#244c3e; }
+@media(max-width:600px){.brand{gap:8px}.brand img{width:45px;height:45px}.brand-signature{font-size:25px}.header-inner{min-height:82px}.footer-logo{width:104px;height:104px}}
